@@ -1,12 +1,117 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="2PqDVPZy1emoLNHq24i1o8Win-5f4CwFEmJrt7mQ3YQ">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Dinodust, creative studio</title>
+
+  <meta property="og:url" content="https://dinodust.net">
+  <meta property="og:title" content="Dinodust, creative studio">
+  <meta property="og:site_name" content="Dinodust, creative studio">
+  <meta property="og:description" content="Dinodust is an independent creative studio, mostly doing 3D illustrations with Blender.">
+  <meta property="og:image" content="https://dinodust.net/dinodust-logo-full.png">
+
+  <meta itemprop="name" content="Dinodust, creative studio">
+  <meta itemprop="description" content="Dinodust is an independent creative studio, mostly doing 3D illustrations with Blender.">
+  <meta itemprop="image" content="https://dinodust.net/dinodust-logo-full.png">
+
+  <meta name="description" content="Dinodust is an independent creative studio, mostly doing 3D illustrations with Blender.">
+  <link rel="canonical" href="https://dinodust.net">
+
+  <link rel="icon" type="image/png" href="static/favicon-256x256.png" sizes="256x256">
+  <link rel="icon" type="image/png" href="static/favicon-32x32.png" sizes="32x32">
+  <meta name="theme-color" content="#121414">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    body{background:#121414;line-height:2rem;font-size:1rem;font-family:'IBM Plex Sans', sans-serif;font-weight:400;color:#e6f9fa}
+    .btn{display:inline-block;position:relative;overflow:hidden;border:none;border-radius:.25rem;background:#191c1c;color:#ffe5f5;text-decoration:none;transition:color .15s}
+    .btn:after{content:'';opacity:.05;position:absolute;top:0;left:0;width:100%;height:100%;border-radius:.25rem;background:#fff;transition:transform .15s;transform:scaleX(0)}
+    .btn:focus,.btn:hover{color:rgba(255,255,255,.9)}
+    .btn:focus:after,.btn:hover:after{transform:scaleX(1)}
+    .title{margin-bottom:2rem;line-height:inherit;font-size:2.25rem;font-weight:500;color:rgba(230, 249, 250, 0.45)}
+    .description{margin-bottom:2rem;line-height:inherit;font-size:1.5rem;font-weight:500}
+    .main{position:fixed;top:0;left:0;right:0;bottom:0;overflow-x:hidden;overflow-y:auto;display:flex;padding:3rem 1.5rem;-webkit-overflow-scrolling:smooth}
+    .container{max-width:36rem;margin:auto}
+    .project{display:block;margin-bottom:1rem;padding:1rem 1.25rem;line-height:1.5rem;text-decoration:none;transition:background .15s}
+    .project-name{line-height:inherit;font-size:1rem;font-weight:500}
+    .project-description{color:rgba(230, 249, 250, 0.45)}
+    .contact{display:flex;align-items:flex-start;margin-top:3rem;}
+    .contact-logo{display:inline-flex;align-items:center;justify-content:center;overflow:hidden;border-radius:100%;width:2.5rem;height:2.5rem;background:#191c1c;text-align:center}
+    .contact-logo svg{display:block;width:2rem;height:2rem;fill:#e6f9fa}
+    .contact-link{margin-left:.5rem;padding:0 1.25rem;text-align:center;line-height:2.5rem;font-weight:500;font-size:1rem}
+    .contact-link,.contact-link:after{border-radius:3rem}
+    .contact-logo,.btn{box-shadow:inset 0 1px 0 0 rgba(255,255,255,.1),inset 0 -2px 0 0 rgba(0,0,0,.06)}
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Dinodust",
+    "url": "https://dinodust.net",
+    "description": "Dinodust is an independent creative studio, mostly doing 3D illustrations with Blender.",
+    "author": {
+      "@type": "Person",
+      "name": "Nicolas Torres",
+      "url": "https://noclat.com"
+    }
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198183512-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-198183512-1');
+  </script>
+</head>
+
+<body>
+  <main class="main">
+    <section class="container animated">
+      <h1 class="title">Dinodust, creative studio</h1>
+      <h2 class="description">
+        Dinodust is an independent creative studio, mostly doing 3D illustrations with Blender.
+      </h2>
+      <a class="project btn" href="https://noclat.com" target="_blank">
+        <article>
+          <h3 class="project-name">Portfolio</h3>
+          <p class="project-description">Discover my 3D illustrations.</p>
+        </article>
+      </a>
+      <a class="project btn" href="https://sector5rpg.net" target="_blank">
+        <article>
+          <h3 class="project-name">Sector 5</h3>
+          <p class="project-description">A sci-fi tabletop RPG that plays with cards, free to print.</p>
+        </article>
+      </a>
+      <aside class="contact">
+        <figure class="contact-logo">
+          <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="340" cy="320" r="30"/>
+            <path d="M500 303.3a20 20 0 01-12.5 18.6c-20 8-38.7 18.1-56.2 30a20 20 0 01-31.3-16.4V220c0-11-9-20-20-20h-22.3a20 20 0 00-17 9.6 402.3 402.3 0 01-131.1 131 20 20 0 00-9.6 17.1V380c0 11 9 20 20 20h115.5a20 20 0 0116.5 31.3c-12 17.5-22 36.3-30.1 56.2a20 20 0 01-18.6 12.5H120c-11 0-20-9-20-20V296.7a20 20 0 0112.6-18.6c75-30.4 135-90.4 165.5-165.5a20 20 0 0118.6-12.6H480c11 0 20 9 20 20v183.3z"/>
+          </svg>
+        </figure>
+        <a class="contact-link btn" href="mailto:hi@dinodust.net">hi@dinodust.net</a>
+      </aside>
+    </section>
+  </main>
+
+  <script type="text/javascript">
+    const sound = new Audio('./static/button.m4a');
+    sound.volume = .5;
+    document.querySelectorAll('a').forEach((btn) => {
+      btn.addEventListener('mouseenter', () => {
+        sound.play();
+      });
+    });
+  </script>
+</body>
 </html>
