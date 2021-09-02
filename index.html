@@ -107,7 +107,7 @@
   <script type="text/javascript">
     const sound = new Audio('./static/button.m4a');
     sound.volume = .5;
-    document.querySelectorAll('a').forEach((btn) => {
+    document.querySelectorAll('.btn').forEach((btn) => {
       btn.addEventListener('mouseenter', () => {
         sound.play();
       });
